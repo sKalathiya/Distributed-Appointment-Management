@@ -1,0 +1,7 @@
+module app{
+
+       interface FrontEnd
+       {
+         string sendRequestToSequencer(in string request);
+       };
+};
